@@ -1,0 +1,61 @@
+// Google Fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+
+// Font Variables 
+$open-sans: 'Open Sans';
+$montserrat: 'Montserrat';
+
+// Other Variables
+$colorBlack: #000000;
+$colorWhite: #ffffff;
+
+// Styles
+html{
+	background-color: #f1f1f1;
+	padding: 0;
+	margin: 0;
+}
+
+h1{
+	font-family: $montserrat;
+	letter-spacing: 3px;
+	font-size: 45px;
+	color: #4C4C4C;	
+	font-weight: 700;
+}
+
+h2{
+	font-family: $montserrat;
+	text-transform: uppercase;
+	color: #4C4C4C;
+	font-size: 33px;
+	font-weight: 700;
+}
+
+h4{
+	font-family: $montserrat;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #4C4C4C;
+	font-weight: 400;
+}
+
+h5{
+	font-family: $montserrat;
+	color: #4C4C4C;
+	font-weight: 400;
+}
+
+p{
+	font-family: $montserrat;
+	color: #4C4C4C;
+	line-height: 24px;
+}
+
+
+
+
+
+
