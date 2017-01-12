@@ -840,6 +840,15 @@ form.uk-form textarea {
   -webkit-transition: -webkit-transform .3s ease-in-out;
           transition: transform .3s ease-in-out; }
 
+.headerbuttons > .uk-button{
+	margin-left: 15px !important;
+	margin-right: 15px !important;
+}
 
-
+@media screen and (max-width: 768px) {
+	.headerbuttons > .uk-button{
+	margin-top: 15px !important;
+	margin-bottom: 15px !important;
+}
+}
 

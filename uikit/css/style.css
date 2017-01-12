@@ -1320,4 +1320,18 @@ form.uk-form textarea {
   transition: transform .3s ease-in-out;
 }
 
+/* line 843, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+.headerbuttons > .uk-button {
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 849, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+  .headerbuttons > .uk-button {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+  }
+}
+
 /*# sourceMappingURL=../css/style.map */
