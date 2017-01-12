@@ -82,16 +82,17 @@ p {
   justify-content: space-between;
   box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
   width: 100%;
+  height: 73px;
 }
 
-/* line 96, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 97, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-sticky-placeholder {
   position: relative;
   z-index: 2;
   background: #ffffff;
 }
 
-/* line 102, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 103, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-navbar-nav {
   margin: 0;
   padding: 0;
@@ -99,13 +100,13 @@ p {
   float: left;
 }
 
-/* line 109, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 110, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-navbar-nav > li {
   float: left;
   position: relative;
 }
 
-/* line 114, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 115, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-navbar-nav > li > a {
   height: 60px;
   padding: 0 20px;
@@ -121,22 +122,53 @@ p {
 }
 
 /* line 129, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+.uk-navbar-brand {
+  margin-top: -50px;
+}
+
+/* line 135, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+.uk-offcanvas-bar {
+  background: #F5F5F5;
+}
+
+/* line 139, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+.uk-nav-offcanvas > li > a {
+  color: #000000;
+  padding: 10px 20px;
+  border: none !important;
+  text-shadow: none;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 15px;
+}
+
+/* line 149, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+.uk-nav-offcanvas > li > :hover {
+  background: #3bbca6 !important;
+}
+
+/* line 153, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+.uk-nav-offcanvas {
+  border-bottom: none !important;
+}
+
+/* line 158, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .start-section {
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
-/* line 135, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 164, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-icon-heartbeat:before, .uk-icon-tasks:before, .uk-icon-volume-up:before {
   color: #3bbca6;
 }
 
-/* line 140, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 169, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .headerimage {
   padding-top: 150px;
 }
 
-/* line 144, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 173, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .headerimage h1 {
   font-family: "Montserrat";
   font-size: 4rem;
@@ -147,7 +179,7 @@ p {
   font-weight: 700;
 }
 
-/* line 154, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 183, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-text-large {
   font-family: "Open Sans";
   font-size: 2rem;
@@ -156,33 +188,44 @@ p {
   font-weight: 400;
 }
 
-/* line 162, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 191, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-cover-background {
   background-image: url("../images/backgroundHeader.png");
 }
 
-/* line 166, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 195, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-button {
   text-shadow: none !important;
   border-radius: none !important;
   padding: 10px 15px;
   font-family: "Montserrat";
   text-transform: uppercase;
+  border: none;
 }
 
-/* line 174, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
-.uk-button-white, .uk-button-white:hover, .uk-button-white:active {
+/* line 204, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+.uk-button-white, .uk-button-white:hover {
   background-image: -webkit-linear-gradient(top, #ffffff, #ffffff) !important;
   color: #000000;
 }
 
-/* line 179, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
-.uk-button-green, .uk-button-green:hover, .uk-button-green:active {
+/* line 209, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+.uk-button-green, .uk-button-green:hover {
   background-image: -webkit-linear-gradient(top, #3bbca6, #3bbca6) !important;
   color: #ffffff;
 }
 
-/* line 185, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 214, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+.uk-button-white:active {
+  color: #000000 !important;
+}
+
+/* line 218, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+.uk-botton-green:active {
+  color: #ffffff !important;
+}
+
+/* line 224, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .introduction h6 {
   font-family: "Montserrat";
   font-size: 20px;
@@ -191,7 +234,7 @@ p {
   font-weight: 700;
 }
 
-/* line 193, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 232, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .introduction p {
   font-family: "Open Sans";
   font-size: 16px;
@@ -200,12 +243,12 @@ p {
   font-weight: 300;
 }
 
-/* line 201, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 240, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .introduction.start-section {
   padding-bottom: 20px !important;
 }
 
-/* line 205, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 244, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -214,7 +257,7 @@ p {
   overflow: hidden;
 }
 
-/* line 213, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 252, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .video-container iframe, .video-container object, .video-container embed {
   position: absolute;
   top: 0;
@@ -223,7 +266,7 @@ p {
   height: 100%;
 }
 
-/* line 222, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 261, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .measurements h6 {
   font-family: "Montserrat";
   font-size: 20px;
@@ -232,7 +275,7 @@ p {
   font-weight: 700;
 }
 
-/* line 230, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 269, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .measurements h3 {
   font-family: "Montserrat";
   font-size: 18px;
@@ -241,7 +284,7 @@ p {
   font-weight: 300;
 }
 
-/* line 238, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 277, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .measurements p {
   font-family: "Open Sans";
   font-size: 16px;
@@ -250,7 +293,7 @@ p {
   font-weight: 300;
 }
 
-/* line 247, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 286, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .theteam h6 {
   font-family: "Montserrat";
   font-size: 20px;
@@ -260,7 +303,7 @@ p {
   margin-bottom: 50px;
 }
 
-/* line 256, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 295, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .theteam p {
   font-family: "Montserrat";
   font-size: 18px;
@@ -270,7 +313,7 @@ p {
   margin-top: -10px !important;
 }
 
-/* line 265, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 304, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .theteam h3 {
   font-family: "Montserrat";
   text-align: center;
@@ -281,7 +324,7 @@ p {
   text-transform: uppercase;
 }
 
-/* line 275, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 314, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .theteam div div p {
   font-family: "Open Sans";
   text-align: center;
@@ -290,7 +333,7 @@ p {
   margin-top: 0px;
 }
 
-/* line 284, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 323, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .contact h6 {
   font-family: "Montserrat";
   font-size: 20px;
@@ -299,7 +342,7 @@ p {
   font-weight: 700;
 }
 
-/* line 292, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 331, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .contact p {
   font-family: "Open Sans";
   font-size: 16px;
@@ -308,31 +351,31 @@ p {
   font-weight: 300;
 }
 
-/* line 300, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 339, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .text-mail a {
   color: #3bbca6;
 }
 
 @media (min-width: 767px) {
-  /* line 307, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+  /* line 346, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
   .tm-navbar {
     height: 73px;
     padding: 35px 70px;
   }
-  /* line 312, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+  /* line 351, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
   .uk-button-white, .uk-button-green {
     margin-top: 50px !important;
     margin: 5px;
   }
-  /* line 317, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+  /* line 356, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
   .text-large-padding-top {
     padding-top: 100px;
   }
-  /* line 321, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+  /* line 360, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
   .text-large-padding-bottom {
     padding-bottom: 50px;
   }
-  /* line 325, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+  /* line 364, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
   .text-justify-center {
     text-align: justify;
     text-align-last: center;

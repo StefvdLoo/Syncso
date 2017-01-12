@@ -91,6 +91,7 @@ p{
     justify-content: space-between;
     box-shadow: 0 4px 2px -2px rgba(0,0,0,0.1);
     width: 100%;
+    height: 73px;
 }
 
 .uk-sticky-placeholder {
@@ -123,6 +124,34 @@ p{
     border: none !important;
     box-shadow: none !important;
     text-shadow:none !important;
+}
+
+.uk-navbar-brand{
+	margin-top:-50px;
+}
+
+// Offcanvas
+
+.uk-offcanvas-bar{
+	background: $colour-bg-2;
+}
+
+.uk-nav-offcanvas>li>a{
+    color: $colorBlack;
+    padding: 10px 20px;
+    border:none !important;
+    text-shadow: none;
+    font-family: $open-sans;
+    font-weight:400;
+    font-size:15px;
+}
+
+.uk-nav-offcanvas>li>:hover{
+	background: $syncsoGreen !important;
+}
+
+.uk-nav-offcanvas{
+	border-bottom: none !important;
 }
 
 // Sections
@@ -169,17 +198,27 @@ p{
 	padding: 10px 15px;
 	font-family:$montserrat;
 	text-transform: uppercase;
+	border:none;
 }
 
-.uk-button-white, .uk-button-white:hover, .uk-button-white:active {
+.uk-button-white, .uk-button-white:hover{
 	background-image: -webkit-linear-gradient(top,#ffffff,#ffffff) !important;
 	color:$colorBlack;
 }
 
-.uk-button-green, .uk-button-green:hover, .uk-button-green:active{
+.uk-button-green, .uk-button-green:hover{
 	background-image: -webkit-linear-gradient(top,#3bbca6,#3bbca6) !important;
 	color:$colorWhite;
 }
+
+.uk-button-white:active{
+	color:$colorBlack !important;
+}
+
+.uk-botton-green:active{
+	color:$colorWhite !important;
+}
+
 
 // Introduction Syncso
 .introduction h6{
