@@ -24,7 +24,7 @@
             <nav class="uk-navbar uk-contrast">
                 <div class="uk-container uk-container-center">
                     <a href="/" class="uk-navbar-brand uk-hidden-small">
-                        <img src="#" alt="Flux" class="uk-responsive-height">
+                        <img src="images/Flux-Logo3.png" alt="Flux" class="uk-responsive-height" style="height:45px;">
                     </a>
                     <div class="uk-navbar-flip uk-hidden-small">
                         <ul class="uk-navbar-nav">
@@ -39,7 +39,7 @@
                            class="uk-navbar-toggle"></a>
                     </div>
                     <div class="uk-navbar-brand uk-navbar-center uk-visible-small">
-                        <img src="#" alt="Flux">
+                        <img src="images/Flux-Logo3.png" class="smallLogo" alt="Flux">
                     </div>
                 </div>
             </nav>
@@ -75,7 +75,7 @@
                                 <div class="uk-width-medium-1-1 uk-margin-large-top">
                                     <div>
                                         <a href="https://youtu.be/8QA4n69IUoc" title="Sensory Overload"
-                                           class="t-intro t-shadow uk-contrast" data-uk-lightbox>
+                                           class="t-intro t-shadow uk-contrast" data-uk-lightbox allowfullscreen>
                                             Watch our video <i class="uk-icon-play-circle-o"></i>
                                         </a>
                                     </div>
@@ -87,7 +87,6 @@
             </div>
         </div>
 
-
         <section id="ourproduct" class="uk-block uk-block-default t-parents">
             <div class="uk-container uk-container-center">
                 <div data-uk-grid-margin data-uk-grid-parallax="{translate:-110}" class="uk-grid">
@@ -98,23 +97,79 @@
                         <div class="uk-panel features uk-text-center-small">
                             <h1>Our product</h1>
                             <p>
-                                Our idea is based on the fact that some employees experienced problems with saying no, which results in getting overloaded. So we developed a device that helps them with this problem, but also with reducing disturbances and disctractions. So with our product they can keep their workflow up with less stress and feel better at the same time!
+                                Flux is a solution for a problem that a lot of employees experience, the inability to say no. This results in getting overloaded with work which causes more problems. This is why we developed a product that helps with reducing disturbances and distractions. So with our product people can keep a higher workflow with less stress, so they feel more comfortable and get better results.
                             </p>
                             <ul data-uk-scrollspy="{cls:'uk-animation-fade', target:'&gt; li', delay:500, repeat: false}"
                                 class="uk-list uk-margin-large-top uk-text-left">
                                 <li class="uk-text-center-small">
-                                    <img src="#" alt=""><span class="uk-text-middle">Connect with our lightsystem</span>
+                                    <i class="uk-icon-button uk-icon-share-alt" style="margin-right: 10px; border:none; color:#3bbca6;" alt="Connect"></i><span class="uk-text-middle">Connect with our lightsystem</span>
                                 </li>
                                 <li class="uk-text-center-small">
-                                    <img src="#" alt=""><span class="uk-text-middle">Get detailed information</span>
+                                    <i class="uk-icon-button uk-icon-info" style="margin-right: 10px; border:none; color:#3bbca6;" alt="Information"></i><span class="uk-text-middle">Get detailed information</span>
                                 </li>
                                 <li class="uk-text-center-small">
-                                    <img src="#" alt=""><span class="uk-text-middle">Keep your workflow high</span>
+                                    <i class="uk-icon-button uk-icon-line-chart" style="margin-right: 10px; border:none; color:#3bbca6;" alt="Workflow"></i><span class="uk-text-middle">Keep your workflow high</span>
                                 </li>
                             </ul>
-                            <div class="uk-margin-large-top"><a class="uk-button uk-button-large t-button-4">More information</a></div>
+                            <div class="uk-margin-large-top"><a href="#measurements" data-uk-smooth-scroll="{offset: 0}" class="uk-button uk-button-large t-button-4">More information</a></div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="measurements" class="uk-block uk-block-default t-dark">
+            <div class="uk-container uk-container-center">
+                <div data-uk-grid-margin data-uk-grid-parallax="{translate:-120}" class="uk-grid">
+                    <div class="uk-width-medium-1-2 uk-push-1-2 uk-text-center">
+                        <div class="uk-panel"><img src="#" alt="Wristband" data-rjs="3"></div>
+                    </div>
+                    <div class="uk-width-medium-1-2 uk-pull-1-2">
+                        <div class="uk-panel features uk-text-center-small">
+                            <h1>Measurements</h1>
+                            <p>
+                                By capturing different data about the user, Flux can calculate a person’s stress level. 
+                                The flux wristband is lightweight, small and comfortable to wear. The user won’t even notice it.
+                                The flux wristband measures the following data: 
+                            </p>
+                            <ul data-uk-scrollspy="{cls:'uk-animation-fade', target:'&gt; li', delay:500, repeat: false}"
+                                class="uk-list uk-margin-large-top uk-text-left">
+                                <li class="uk-text-center-small">
+                                    <i class="uk-icon-button uk-icon-heartbeat" style="margin-right: 10px; border:none; color:#3bbca6;" alt="HearthBeat"></i><span class="uk-text-middle">Heartbeat</span>
+                                </li>
+                                <li class="uk-text-center-small">
+                                    <i class="uk-icon-button uk-icon-tasks" style="margin-right: 10px; border:none; color:#3bbca6;" alt="AmountofTasks"></i><span class="uk-text-middle">Amount of tasks</span>
+                                </li>
+                                <li class="uk-text-center-small">
+                                    <i class="uk-icon-button uk-icon-volume-up" style="margin-right: 10px; border:none; color:#3bbca6;" alt="NoiseLevel"></i><span class="uk-text-middle">Noise level</span>
+                                </li>
+                                <li class="uk-text-center-small">
+                                    <i class="uk-icon-button uk-icon-fire" style="margin-right: 10px; border:none; color:#3bbca6;" alt="BodyTemperature"></i><span class="uk-text-middle">Body temperature</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="measurements" class="uk-block uk-block-default">
+            <div class="uk-container uk-container-center">
+                <div data-uk-grid-margin data-uk-grid-parallax="{translate:-120}" class="uk-grid">
+                    <div class="uk-width-medium-1-2 uk-text-center">
+                        <div class="uk-panel"><img src="#" alt="productImage" data-rjs="3"></div>
+                    </div>
+                    <div class="uk-width-medium-1-2">
+                        <div class="uk-panel features uk-text-center-small">
+                            <h1>Using Flux</h1>
+                            <p>
+                                Flux calculates the user’s stress level by measuring different data. When it signals that the user is getting stressed it sends a signal to the light system which changes color. The light system is strategically placed just outside of the user’s office. This is how it shows other employees whether or not they can come inside and disturb the user.
+                                <br class="uk-hidden-medium"><br class="uk-hidden-medium">
+                                If the light is orange, they can only come in when it’s important or urgent. When the light is red, they should respect the person’s privacy and come back later. This is how Flux helps employees who normally can’t say no to others by helping them not getting disturbed at all.
+                            </p>
+                        </div>
+                    </div>
+    
                 </div>
             </div>
         </section>
@@ -147,47 +202,16 @@
             </div>
         </section>
 
-        <section id="measurements" class="uk-block uk-block-default">
-            <div class="uk-container uk-container-center">
-                <div data-uk-grid-margin data-uk-grid-parallax="{translate:-120}" class="uk-grid">
-                    <div class="uk-width-medium-1-2 uk-push-1-2 uk-text-center">
-                        <div class="uk-panel"><img src="#" alt="Wristband" data-rjs="3"></div>
-                    </div>
-                    <div class="uk-width-medium-1-2 uk-pull-1-2">
-                        <div class="uk-panel features uk-text-center-small">
-                            <h1>Measurements</h1>
-                            <p>
-                                With Flux we can measure.... 
-                            </p>
-                            <ul data-uk-scrollspy="{cls:'uk-animation-fade', target:'&gt; li', delay:500, repeat: false}"
-                                class="uk-list uk-margin-large-top uk-text-left">
-                                <li class="uk-text-center-small">
-                                    <img src="#" alt="HearthBeat"><span class="uk-text-middle">Heartbeat</span>
-                                </li>
-                                <li class="uk-text-center-small">
-                                    <img src="#" alt="AmountofTasks"><span class="uk-text-middle">Amount of tasks</span>
-                                </li>
-                                <li class="uk-text-center-small">
-                                    <img src="#" alt="NoiseLevel"><span class="uk-text-middle">Noise level</span>
-                                </li>
-                                <li class="uk-text-center-small">
-                                    <img src="#" alt="BodyTemperature"><span class="uk-text-middle">Body temperature</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="meettheteam" class="uk-block uk-block-default t-dark">
+        <section id="meettheteam" class="uk-block uk-block-default">
             <div class="uk-container uk-container-center">
                 <div data-uk-grid-margin data-uk-grid-parallax="{translate:-110}" class="uk-grid">
                     <div class="uk-width-small-1-1 uk-width-medium-1-2 uk-width-large-1-2">
                         <div class="uk-panel features">
                             <h1>Meet the team</h1>
                             <p>
-                                We are six students from different countries following the same minor, which is called “ Digital Society UXDS”. This minor is given in Eindhoven, the Netherlands on the Fontys University. 
+                                Flux is brought to you by an international group of students from Fontys University, Eindhoven, The Netherlands. This group was formed during the Digital Society UXDS minor. 
+                                <br class="uk-hidden-medium"><br class="uk-hidden-medium">
+                                Students are from different branches and specializations within the IT field. Together we have designed and created the Flux solution.
                             </p>
                         </div>
                     </div>
@@ -246,15 +270,15 @@
                 <div class="uk-grid">
                     <div class="uk-width-medium-3-4 uk-container-center">
                         <div class="uk-panel uk-text-center">
-                            <h1>Subscribe to our Concept Book</h1>
+                            <h1 class="subscribe">Subscribe and download our Concept Book</h1>
                             <h3>Be among the first to get more known about our product.</h3>
                             <div class="uk-form">
                                 <form id="form_subscribe">
                                     <fieldset class="uk-margin-large-top">
-                                        <input type="email" required aria-required="true" id="email_text" name="email" pattern="^[a-z0-9]+(\.[a-z0-9]+){0,1}@[a-z]+(\.[a-z]+){1,2}$" placeholder="email e.g example@gmail.com" title="email address e.g example@gmail.com"
+                                        <input type="email" required aria-required="true" id="email_text" name="email" placeholder="email e.g example@gmail.com" title=""
                                                class="uk-form-width-medium">
                                         <button type="submit" id="submit_email" class="uk-contrast">
-                                            Subscribe
+                                        <a href="images/play_store.png" download>Download</a>
                                         </button>
                                     </fieldset>
                                 </form>
@@ -270,7 +294,7 @@
                 <div data-uk-grid-margin class="uk-grid">
                     <div class="uk-width-medium-5-10">
                         <h3 class="uk-text-center-small">Flux</h3><p class="uk-text-center-small">
-                            Our goal is to keep the workflow high of all the employees. With our measurement system we get detailed information if the employee is stressed or not. It allows you to respond to the problems of your own employees.
+                            Our goal is to keep the workflow high for all the employees. With our measurement system we get detailed information whether the employee is stressed or not. It allows you to respond to the problems of your own employees.
                             <br class="uk-hidden-medium">Flux - Keep the workflow!
                         </p>
                     </div>
@@ -299,7 +323,6 @@
                 </div>
             </div>
         </footer>
-
         <!-- UIKIT JS -->
         <script src="js/jquery.js"></script>
         <script src="js/uikit.min.js"></script>

@@ -98,6 +98,10 @@ i {
 	margin-bottom: 15px !important;
 }
 
+h1.subscribe{
+  letter-spacing: 0px;
+}
+
 .uk-cover-background{
 	background-image: url("../images/backgroundHeader.png");
 }
@@ -182,6 +186,9 @@ i {
   .headerbuttons > .uk-button {
     margin-top: 15px !important;
     margin-bottom: 15px !important;
+    margin-left:auto !important;
+    margin-right:auto !important;
+    display:block;
   }
 }
 
@@ -196,7 +203,7 @@ i {
 .uk-navbar-toggle:after {
     content: '';
     vertical-align: middle;
-    background: url("/Content/h.images/navbar-toggle.svg") 0 0 no-repeat;
+    background: url("../images/navbar-toggle.svg") 0 0 no-repeat;
     display: inline-block;
     width: 20px;
     height: 20px; }
@@ -383,8 +390,8 @@ footer {
     background: #2a2a2a; }
 
 .uk-offcanvas-bar {
-  background-image: -webkit-linear-gradient(270deg, #3F5254 0%, #314F52 100%);
-  background-image: linear-gradient(-180deg, #3F5254 0%, #314F52 100%); }
+  background-image: -webkit-linear-gradient(270deg, $syncsoGreen 0%, $syncoGreenHover 100%);
+  background-image: linear-gradient(-180deg, $syncsoGreen 0%, $syncoGreenHover 100%); }
   .uk-offcanvas-bar:after {
     text-shadow: none;
     box-shadow: none;
@@ -399,7 +406,7 @@ footer {
     text-shadow: none;
     box-shadow: none;
     border: 0;
-    color: rgba 255, 255, 255, 0.7;
+    color: $colorWhite;
     padding-left: 30px; }
     .uk-nav-offcanvas > li > a:hover, .uk-nav-offcanvas > li > a:active, .uk-nav-offcanvas > li > a:focus {
       background: rgba(0, 0, 0, 0.1) !important; }
@@ -416,6 +423,11 @@ footer {
       padding: 10px 10px 10px 30px !important; }
   .uk-nav-offcanvas > .uk-open > a {
     background: rgba(0, 0, 0, 0.1); }
+
+    .smallLogo{
+      height: 40px;
+      margin-top:3px;
+    }
 
 
 

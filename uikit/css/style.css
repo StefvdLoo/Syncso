@@ -90,11 +90,16 @@ i {
 }
 
 /* line 101, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+h1.subscribe {
+  letter-spacing: 0px;
+}
+
+/* line 105, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-cover-background {
   background-image: url("../images/backgroundHeader.png");
 }
 
-/* line 107, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 111, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-contrast .uk-button.uk-button-large {
   font-size: 18px;
   padding: 10px 35px;
@@ -106,45 +111,45 @@ i {
   transition: background .3s ease-in-out;
 }
 
-/* line 117, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 121, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-contrast .uk-button.uk-button-large.t-button-1 {
   background-color: #ffffff;
   color: #000000;
 }
 
-/* line 120, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 124, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-contrast .uk-button.uk-button-large.t-button-1:hover, .uk-contrast .uk-button.uk-button-large.t-button-1:focus, .uk-contrast .uk-button.uk-button-large.t-button-1:active {
   background-color: #e5e5e5;
 }
 
-/* line 123, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 127, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-contrast .uk-button.uk-button-large.t-button-2 {
   background-color: #3bbca6;
 }
 
-/* line 126, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 130, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-contrast .uk-button.uk-button-large.t-button-2:hover, .uk-contrast .uk-button.uk-button-large.t-button-2:focus, .uk-contrast .uk-button.uk-button-large.t-button-2:active {
   background-color: #33a390;
 }
 
-/* line 129, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 133, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-contrast .uk-button.uk-button-large.t-button-3 {
   background-color: #000000;
 }
 
-/* line 132, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 136, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-contrast .uk-button.uk-button-large.t-button-3:hover, .uk-contrast .uk-button.uk-button-large.t-button-3:focus, .uk-contrast .uk-button.uk-button-large.t-button-3:active {
   background-color: #33a390;
 }
 
-/* line 135, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 139, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-button {
   min-width: 85px;
   padding: 4px 18px;
   min-height: 38px;
 }
 
-/* line 140, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 144, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-button-primary, .uk-form input.uk-button-primary {
   background-color: #3bbca6 !important;
   border-radius: 0px;
@@ -155,17 +160,17 @@ i {
   transition: background-color .3s ease;
 }
 
-/* line 149, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 153, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-button-primary:hover, .uk-button-primary:focus, .uk-button-primary:active, .uk-form input.uk-button-primary:hover, .uk-form input.uk-button-primary:focus, .uk-form input.uk-button-primary:active {
   background-color: #33a390 !important;
 }
 
-/* line 152, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 156, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-button {
   background-image: linear-gradient(to bottom, #3bbca6, #3bbca6);
 }
 
-/* line 156, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 160, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-button.t-button-default {
   -webkit-transition: background-color .3s ease;
   transition: background-color .3s ease;
@@ -175,12 +180,12 @@ i {
   text-shadow: none;
 }
 
-/* line 164, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 168, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-button.t-button-default:hover {
   background: whitesmoke;
 }
 
-/* line 167, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 171, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-button-large {
   text-shadow: none;
   box-shadow: none;
@@ -191,36 +196,39 @@ i {
   padding: 5px 35px;
 }
 
-/* line 176, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 180, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .headerbuttons > .uk-button {
   margin-left: 15px !important;
   margin-right: 15px !important;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 182, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+  /* line 186, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
   .headerbuttons > .uk-button {
     margin-top: 15px !important;
     margin-bottom: 15px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block;
   }
 }
 
-/* line 189, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 196, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-button-large:hover, .uk-button-large:focus, .uk-button-large:active {
   background-color: #33a390;
   color: white;
 }
 
-/* line 193, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 200, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-navbar-toggle {
   height: 60px;
 }
 
-/* line 196, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 203, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-navbar-toggle:after {
   content: '';
   vertical-align: middle;
-  background: url("/Content/h.images/navbar-toggle.svg") 0 0 no-repeat;
+  background: url("../images/navbar-toggle.svg") 0 0 no-repeat;
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -244,21 +252,21 @@ i {
   }
 }
 
-/* line 217, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 224, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .t-navbar {
   position: absolute;
   z-index: 5;
   width: 100%;
 }
 
-/* line 223, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 230, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .t-intro:hover, .t-intro:active, .t-intro:focus {
   color: white;
   text-decoration: underline;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 228, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+  /* line 235, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
   .t-middle {
     position: absolute;
     top: 50%;
@@ -268,73 +276,73 @@ i {
   }
 }
 
-/* line 235, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 242, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-block {
   padding: 60px 0 !important;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 238, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+  /* line 245, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
   .uk-block {
     padding: 100px 0 !important;
   }
 }
 
-/* line 241, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 248, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .t-block-small {
   padding: 60px 0 !important;
 }
 
-/* line 244, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 251, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 section[class*='t-'] {
   -webkit-transition: all .3s;
   transition: all .3s;
 }
 
-/* line 247, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 254, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 section[class*='t-'] .uk-list > li {
   margin-bottom: 10px;
   font-size: 9px !important;
 }
 
-/* line 250, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 257, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 section[class*='t-'] .uk-list > li img {
   margin-right: 10px;
 }
 
-/* line 252, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 259, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 section[class*='t-'] .uk-list > li span {
   display: block;
   margin: 8px 0 16px 0;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 256, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+  /* line 263, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
   section[class*='t-'] .uk-list > li span {
     display: inline;
     margin: 0;
   }
 }
 
-/* line 259, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 266, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 section[class*='t-'].t-gradient, section[class*='t-'].t-dark {
   background: #fafafa;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 262, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+  /* line 269, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
   section[class*='t-'].t-schools {
     padding: 100px 0 0 0 !important;
   }
 }
 
-/* line 264, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 271, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 section[class*='t-'].t-subscribe {
   background: -webkit-linear-gradient(180deg, #3bbca6 0%, #33a390 100%);
   background: linear-gradient(-90deg, #3bbca6 0%, #33a390 100%);
 }
 
-/* line 267, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 274, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 section[class*='t-'].t-subscribe .uk-form input {
   padding: 6px 12px !important;
   height: 38px;
@@ -347,14 +355,14 @@ section[class*='t-'].t-subscribe .uk-form input {
 }
 
 @media screen and (min-width: 401px) {
-  /* line 277, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+  /* line 284, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
   section[class*='t-'].t-subscribe .uk-form input {
     width: auto;
     min-width: 250px;
   }
 }
 
-/* line 280, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 287, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 section[class*='t-'].t-subscribe .uk-form button {
   text-shadow: none;
   box-shadow: none;
@@ -369,7 +377,7 @@ section[class*='t-'].t-subscribe .uk-form button {
   cursor: pointer;
 }
 
-/* line 292, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 299, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 section[class*='t-'].t-subscribe .uk-form button:focus, section[class*='t-'].t-subscribe .uk-form button:hover, section[class*='t-'].t-subscribe .uk-form button:active {
   outline: none;
   color: #ffffff;
@@ -378,122 +386,122 @@ section[class*='t-'].t-subscribe .uk-form button:focus, section[class*='t-'].t-s
 }
 
 @media screen and (min-width: 401px) {
-  /* line 298, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+  /* line 305, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
   section[class*='t-'].t-subscribe .uk-form button {
     width: auto;
   }
 }
 
-/* line 301, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 308, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 footer {
   color: rgba(42, 42, 42, 0.6) !important;
 }
 
-/* line 303, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 310, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 footer.t-dark {
   background: #202020 !important;
 }
 
-/* line 305, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 312, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 footer.t-dark * {
   color: rgba(255, 255, 255, 0.8);
 }
 
-/* line 307, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 314, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 footer.t-dark h3 {
   color: #ffffff;
 }
 
-/* line 309, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 316, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 footer.t-dark a {
   -webkit-transition: color .3s ease;
   transition: color .3s ease;
 }
 
-/* line 312, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 319, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 footer.t-dark a:hover, footer.t-dark a:focus, footer.t-dark a:active {
   color: #ffffff;
 }
 
-/* line 314, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 321, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 footer.t-dark .uk-grid-divider {
   border-color: rgba(204, 204, 204, 0.2);
 }
 
-/* line 316, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 323, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 footer.uk-block {
   padding-bottom: 30px !important;
   padding-top: 60px !important;
 }
 
-/* line 319, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 326, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 footer h3 {
   font-weight: 400 !important;
   font-size: 16px !important;
 }
 
-/* line 322, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 329, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 footer p, footer ul.uk-list > li > a, footer ul.uk-list > li *, footer ul.uk-list > *, footer .t-copyright {
   font-size: 13px !important;
 }
 
-/* line 324, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 331, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 footer .t-tel, footer .t-mail {
   margin-top: 5px;
 }
 
-/* line 326, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 333, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 footer a {
   color: rgba(42, 42, 42, 0.6);
   -webkit-transition: color .3s;
   transition: color .3s;
 }
 
-/* line 330, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 337, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 footer a:hover, footer a:focus, footer a:active {
   color: #2a2a2a;
 }
 
-/* line 332, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 339, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 footer .t-social {
   margin-top: 10px;
 }
 
-/* line 334, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 341, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 footer .t-social > li > a {
   text-decoration: none;
   cursor: pointer;
   margin-right: 30px;
 }
 
-/* line 338, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 345, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 footer .t-social > li > a i[class*='t-icon-'] {
   font-size: 18px !important;
 }
 
-/* line 340, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 347, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 footer .t-social > li > a:hover, footer .t-social > li > a:focus, footer .t-social > li > a:active {
   text-decoration: none;
 }
 
-/* line 343, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 350, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-navbar {
   border-radius: 0;
   border: 0;
   background: #202020;
 }
 
-/* line 347, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 354, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-navbar-nav {
   margin-right: -15px;
 }
 
-/* line 349, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 356, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-navbar-nav .uk-navbar-content {
   height: 60px;
 }
 
-/* line 351, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 358, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-navbar-nav > li > a {
   line-height: 60px;
   height: 60px;
@@ -506,7 +514,7 @@ footer .t-social > li > a:hover, footer .t-social > li > a:focus, footer .t-soci
   font-weight: 400 !important;
 }
 
-/* line 361, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 368, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-navbar-nav > li > a:hover, .uk-navbar-nav > li > a:focus, .uk-navbar-nav > li > a:active, .uk-navbar-nav > li > a.active {
   background: none;
   color: white;
@@ -514,50 +522,50 @@ footer .t-social > li > a:hover, footer .t-social > li > a:focus, footer .t-soci
   text-decoration: none !important;
 }
 
-/* line 366, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 373, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-navbar-nav > li.uk-open > a {
   background: transparent;
   color: white;
 }
 
-/* line 369, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 376, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-navbar .uk-dropdown-navbar ul > li > a {
   color: #333333;
   font-size: 3px !important;
 }
 
-/* line 372, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 379, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-navbar .uk-dropdown-navbar ul > li > a:active, .uk-navbar .uk-dropdown-navbar ul > li > a:focus, .uk-navbar .uk-dropdown-navbar ul > li > a:hover {
   color: white;
 }
 
-/* line 374, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 381, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-navbar-brand {
   height: 60px;
 }
 
-/* line 377, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 384, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .t-navbar-transparent .uk-navbar {
   background: transparent;
 }
 
-/* line 380, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 387, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-nav-navbar > li > a {
   font-size: 14px !important;
 }
 
-/* line 382, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 389, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-nav-navbar > li > a:hover, .uk-nav-navbar > li > a:focus, .uk-nav-navbar > li > a:active {
   background: #2a2a2a;
 }
 
-/* line 385, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 392, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-offcanvas-bar {
-  background-image: -webkit-linear-gradient(270deg, #3F5254 0%, #314F52 100%);
-  background-image: linear-gradient(-180deg, #3F5254 0%, #314F52 100%);
+  background-image: -webkit-linear-gradient(270deg, #3bbca6 0%, #33a390 100%);
+  background-image: linear-gradient(-180deg, #3bbca6 0%, #33a390 100%);
 }
 
-/* line 388, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 395, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-offcanvas-bar:after {
   text-shadow: none;
   box-shadow: none;
@@ -565,53 +573,59 @@ footer .t-social > li > a:hover, footer .t-social > li > a:focus, footer .t-soci
   background: none;
 }
 
-/* line 394, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 401, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-nav-offcanvas {
   text-shadow: none;
   box-shadow: none;
   border: 0;
 }
 
-/* line 398, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 405, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-nav-offcanvas > li > a {
   text-shadow: none;
   box-shadow: none;
   border: 0;
-  color: rgba 255, 255, 255, 0.7;
+  color: #ffffff;
   padding-left: 30px;
 }
 
-/* line 404, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 411, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-nav-offcanvas > li > a:hover, .uk-nav-offcanvas > li > a:active, .uk-nav-offcanvas > li > a:focus {
   background: rgba(0, 0, 0, 0.1) !important;
 }
 
-/* line 406, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 413, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-nav-offcanvas > li > a.active {
   background: rgba(0, 0, 0, 0.1);
   color: white;
 }
 
-/* line 409, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 416, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-nav-offcanvas > li > a.active:hover, .uk-nav-offcanvas > li > a.active:active, .uk-nav-offcanvas > li > a.active:focus {
   background: rgba(0, 0, 0, 0.1) !important;
 }
 
-/* line 411, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 418, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-nav-offcanvas .uk-nav-sub {
   text-shadow: none;
   box-shadow: none;
   border: 0;
 }
 
-/* line 415, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 422, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-nav-offcanvas .uk-nav-sub > li > a {
   padding: 10px 10px 10px 30px !important;
 }
 
-/* line 417, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+/* line 424, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
 .uk-nav-offcanvas > .uk-open > a {
   background: rgba(0, 0, 0, 0.1);
+}
+
+/* line 427, /Users/stefke_vdloo/Syncso/uikit/sass/style.scss */
+.smallLogo {
+  height: 40px;
+  margin-top: 3px;
 }
 
 /*# sourceMappingURL=../css/style.map */
